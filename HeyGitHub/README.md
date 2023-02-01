@@ -41,17 +41,8 @@ For example, we can say things like, "Hey, GitHub, toggle sidebar."
 
 ## Modes
 
-We understand that using the hot word over and over again can get old pretty soon, especially when developers are in the zone for building software. So we made a special "code mode" just to avoid tongue fatigue.
-
-In code mode, developers do not have to say, "Hey, GitHub!" to activate the speech-to-text service. The extension continuously listens and assumes that the developer intends to synthesize code. 
-
-We certainly have not forgotten about editing code and controlling the IDE functionality within the “code mode.” After the code has been generated and is still in the `ghost text` formatting, simply start the utterance with "edit code by ..."; this will signal the extension developer's intent to edit the code.
-
-Likewise, begin an utterance with "Hey Github, ..."; that will signal the extension to interpret the command as IDE control rather than the code generation. 
-
-For instance, saying "move to line five" in `code-mode` will cause the extension to to get a code completion. In contrast, saying "Hey GitHub, move to line five" will result in the cursor moving to line 5 (provided it exists).
-
-
+We understand that using the hot word over and over again can get old pretty soon, especially when developers are in the zone for building software. So we made a special "active mode" just to avoid tongue fatigue.
+In active mode, developers do not have to say, "Hey, GitHub!" to activate the speech-to-text service. The extension continuously listens and responds appropriately to the commands. To activate the active mode, developers can say, "Hey, GitHub, start active mode." To deactivate the active mode, developers can say, "stop active mode."
 
 ## Command Categories
 The voice commands can be broadly categorized into two categories:
