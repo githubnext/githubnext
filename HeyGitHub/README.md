@@ -41,17 +41,8 @@ For example, we can say things like, "Hey, GitHub, toggle sidebar."
 
 ## Modes
 
-We understand that using the hot word over and over again can get old pretty soon, especially when developers are in the zone for building software. So we made a special "code mode" just to avoid tongue fatigue.
-
-In code mode, developers do not have to say, "Hey, GitHub!" to activate the speech-to-text service. The extension continuously listens and assumes that the developer intends to synthesize code. 
-
-We certainly have not forgotten about editing code and controlling the IDE functionality within the “code mode.” After the code has been generated and is still in the `ghost text` formatting, simply start the utterance with "edit code by ..."; this will signal the extension developer's intent to edit the code.
-
-Likewise, begin an utterance with "Hey Github, ..."; that will signal the extension to interpret the command as IDE control rather than the code generation. 
-
-For instance, saying "move to line five" in `code-mode` will cause the extension to to get a code completion. In contrast, saying "Hey GitHub, move to line five" will result in the cursor moving to line 5 (provided it exists).
-
-
+We understand that using the hot word over and over again can get old pretty soon, especially when developers are in the zone for building software. So we made a special "active mode" just to avoid tongue fatigue.
+In active mode, developers do not have to say, "Hey, GitHub!" to activate the speech-to-text service. The extension continuously listens and responds appropriately to the commands. To activate the active mode, developers can say, "Hey, GitHub, start active mode." To deactivate the active mode, developers can say, "stop active mode."
 
 ## Command Categories
 The voice commands can be broadly categorized into two categories:
@@ -104,7 +95,7 @@ These commands help with writing code:
 <a href="#top">Back to top</a>
 # Tips and Tricks
 
-While we would like to chase the dream of having a very natural and conversational experience with the `Hey, GitHub!` extension, we are still in the early stages of development. Therefore, we would like to highlight some tips and tricks to help you get the most out of the extension.
+We are chasing the dream of having a very natural and conversational experience with the `Hey, GitHub!` extension, but are still in the early stages of development. Therefore, we would like to highlight some tips and tricks to help you get the most out of the extension.
 
 - If the larger functionality is not generating the desired results, consider breaking down the problem into smaller pieces. For example, if we want to generate a rock-paper-scissors game, we can start by generating a series of functions that can be used to play the game. Then, we can use the generated functions to build the game.
     - a function to randomly select between rock, paper, and scissors
@@ -115,6 +106,13 @@ While we would like to chase the dream of having a very natural and conversation
 - Some helpful formulations for the `Hey, GitHub!` extension: 
     - "lets put it all together" - oftentimes, this phrase is useful to write a function that can tie together the smaller functions we have generated earlier.
     - If the goal is to synthesize a method body, consider using the following formulation: "a method `intended method name` that accepts parameters `parameter names with types` that `intended functionality` and optionally return `return type`"
+
+- You can ask the extension to explain code to you, for example "explain lines 5 to 9"
+
+- You can also converse with the assistant. For example here is your side of one possible conversation:
+    - give me some ideas to add up a list of numbers
+    - ok, show me some code
+    - ok, let's insert that code
 
 - Since the extension relies on the GitHub Copilot infrastructure, it is important to note that the code completions responses are non-deterministic. Therefore, it is possible that the extension may return slightly different code completions for the same input. Thus, canceling the code completions and trying again may yield a different result.
 
