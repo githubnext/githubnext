@@ -95,7 +95,7 @@ These commands help with writing code:
 <a href="#top">Back to top</a>
 # Tips and Tricks
 
-While we would like to chase the dream of having a very natural and conversational experience with the `Hey, GitHub!` extension, we are still in the early stages of development. Therefore, we would like to highlight some tips and tricks to help you get the most out of the extension.
+We are chasing the dream of having a very natural and conversational experience with the `Hey, GitHub!` extension, but are still in the early stages of development. Therefore, we would like to highlight some tips and tricks to help you get the most out of the extension.
 
 - If the larger functionality is not generating the desired results, consider breaking down the problem into smaller pieces. For example, if we want to generate a rock-paper-scissors game, we can start by generating a series of functions that can be used to play the game. Then, we can use the generated functions to build the game.
     - a function to randomly select between rock, paper, and scissors
@@ -106,6 +106,13 @@ While we would like to chase the dream of having a very natural and conversation
 - Some helpful formulations for the `Hey, GitHub!` extension: 
     - "lets put it all together" - oftentimes, this phrase is useful to write a function that can tie together the smaller functions we have generated earlier.
     - If the goal is to synthesize a method body, consider using the following formulation: "a method `intended method name` that accepts parameters `parameter names with types` that `intended functionality` and optionally return `return type`"
+
+- You can ask the extension to explain code to you, for example "explain lines 5 to 9"
+
+- You can also converse with the assistant. For example here is your side of one possible conversation:
+    - give me some ideas to add up a list of numbers
+    - ok, show me some code
+    - ok, let's insert that code
 
 - Since the extension relies on the GitHub Copilot infrastructure, it is important to note that the code completions responses are non-deterministic. Therefore, it is possible that the extension may return slightly different code completions for the same input. Thus, canceling the code completions and trying again may yield a different result.
 
