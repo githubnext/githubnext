@@ -33,6 +33,8 @@ Hey, GitHub! provides voice-first UX to make copilot accessible to even more dev
 
 The voice interaction underneath uses an embedded version of [Microsoft's embedded speech solution](https://azure.microsoft.com/en-us/products/cognitive-services/speech-to-text/#features). In particular, our solution leverages the Java SDK; thus, we need Java runtime as a system prerequisite. If you do not already have a Java runtime or JDK installed (at least Java 11), a place you can get one is [here](https://learn.microsoft.com/en-us/java/openjdk/download).
 
+On Linux it also relies on the `play` command from the `sox` package for making notification sounds. For example you can use `apt install sox` on Ubuntu to get this if you don't already have it. If you don't have it, text to speech will still work, but you won't hear notifications.
+
 Like contemporary voice assistants, our solution relies on a wake word to turn the speech- recognition on and off. So `Hey, GitHub!` is our keyword of choice.
 `Hey, GitHub!` obviously, because “GitHub” is fantastic and, more importantly, to show our commitment to bringing voice control to all aspects of the GitHub product in the future.
 
