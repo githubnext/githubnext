@@ -1,4 +1,4 @@
-# `Hey, GitHub!`
+# `Copilot voice`
 
 - [Interaction](#interaction)
    - [Modes](#modes)
@@ -22,27 +22,26 @@ except if you miss a single comma on page 156 the whole thing makes no damn sens
 - unknown
 ```
 
-In particular, due to the interleaving of the symbols in code, contemporary code dictation solutions subject us developers to a awkward code/symbol dictation. And imagine if that awkwardness is removed; how productive we all will be as developers. That’s where `Hey, Github!` can help.
+In particular, due to the interleaving of the symbols in code, contemporary code dictation solutions subject us developers to a awkward code/symbol dictation. And imagine if that awkwardness is removed; how productive we all will be as developers. That’s where `Copilot Voice` can help.
 
 With Copilot, Github ushered in a new paradigm of software development. With the power of your voice, we’re excited to bring the same benefits of Copilot to even more developers. GitHub is renewing its vision to be the home for *ALL* developers, and this experiment is just one of many steps we’ll be taking to make that a reality.
 
 <a href="#top">Back to top</a>
 # Interaction
 
-Hey, GitHub! provides voice-first UX to make copilot accessible to even more developers. 
+Copilot Voice provides voice-first UX to make copilot accessible to even more developers. 
 
 The voice interaction underneath uses an embedded version of [Microsoft's embedded speech solution](https://azure.microsoft.com/en-us/products/cognitive-services/speech-to-text/#features). In particular, our solution leverages the Java SDK; thus, we need Java runtime as a system prerequisite. If you do not already have a Java runtime or JDK installed (at least Java 11), a place you can get one is [here](https://learn.microsoft.com/en-us/java/openjdk/download).
 
-Like contemporary voice assistants, our solution relies on a wake word to turn the speech- recognition on and off. So `Hey, GitHub!` is our keyword of choice.
-`Hey, GitHub!` obviously, because “GitHub” is fantastic and, more importantly, to show our commitment to bringing voice control to all aspects of the GitHub product in the future.
+Like contemporary voice assistants, our solution relies on a wake word to turn the speech- recognition on and off. So `Copilot` is our keyword of choice.
 
-The simplest way of getting started is to say, `Hey, GitHub!` followed by a command.
-For example, we can say things like, "Hey, GitHub, toggle sidebar."
+The simplest way of getting started is to say, `Copilot` followed by a command.
+For example, we can say things like, "Copilot, toggle sidebar."
 
 ## Modes
 
 We understand that using the hot word over and over again can get old pretty soon, especially when developers are in the zone for building software. So we made a special "active mode" just to avoid tongue fatigue.
-In active mode, developers do not have to say, "Hey, GitHub!" to activate the speech-to-text service. The extension continuously listens and responds appropriately to the commands. To activate the active mode, developers can say, "Hey, GitHub, start active mode." To deactivate the active mode, developers can say, "stop active mode."
+In active mode, developers do not have to say, "Copilot" to activate the speech-to-text service. The extension continuously listens and responds appropriately to the commands. To activate the active mode, developers can say, "Copilot, start active mode." To deactivate the active mode, developers can say, "stop active mode."
 
 ## Command Categories
 The voice commands can be broadly categorized into two categories:
@@ -95,7 +94,7 @@ These commands help with writing code:
 <a href="#top">Back to top</a>
 # Tips and Tricks
 
-We are chasing the dream of having a very natural and conversational experience with the `Hey, GitHub!` extension, but are still in the early stages of development. Therefore, we would like to highlight some tips and tricks to help you get the most out of the extension.
+We are chasing the dream of having a very natural and conversational experience with the `GitHub Copilot Voice` extension, but are still in the early stages of development. Therefore, we would like to highlight some tips and tricks to help you get the most out of the extension.
 
 - If the larger functionality is not generating the desired results, consider breaking down the problem into smaller pieces. For example, if we want to generate a rock-paper-scissors game, we can start by generating a series of functions that can be used to play the game. Then, we can use the generated functions to build the game.
     - a function to randomly select between rock, paper, and scissors
@@ -103,7 +102,7 @@ We are chasing the dream of having a very natural and conversational experience 
     - a function to compare the user's input with the computer's input and determine the winner
     - a function to play the game
 
-- Some helpful formulations for the `Hey, GitHub!` extension: 
+- Some helpful formulations for the `GitHub Copilot Voice` extension: 
     - "lets put it all together" - oftentimes, this phrase is useful to write a function that can tie together the smaller functions we have generated earlier.
     - If the goal is to synthesize a method body, consider using the following formulation: "a method `intended method name` that accepts parameters `parameter names with types` that `intended functionality` and optionally return `return type`"
 
@@ -116,25 +115,24 @@ We are chasing the dream of having a very natural and conversational experience 
 
 - Since the extension relies on the GitHub Copilot infrastructure, it is important to note that the code completions responses are non-deterministic. Therefore, it is possible that the extension may return slightly different code completions for the same input. Thus, canceling the code completions and trying again may yield a different result.
 
-- The underlying speech recognition technology estimates the end of an utterance based on the silence in the audio stream. Since different folks have different speaking styles, we have left the silence threshold as a configurable parameter. You can change the silence threshold by editing the `Hey, GitHub!` extension settings. The default value is 1.25 seconds. However, if you are feeling particularly adventurous, try setting the value to 0.5 seconds.
+- The underlying speech recognition technology estimates the end of an utterance based on the silence in the audio stream. Since different folks have different speaking styles, we have left the silence threshold as a configurable parameter. You can change the silence threshold by editing the `GitHub Copilot Voice` extension settings. The default value is 1.25 seconds. However, if you are feeling particularly adventurous, try setting the value to 0.5 seconds.
 
-- Likewise, the rate at which the extension speaks out the responses is also configurable. You can change the speech rate by editing the `Hey, GitHub!` extension settings. The default value is 100% of the normal speech rate. However, this value can be set to any value between 1% and 200%.
+- Likewise, the rate at which the extension speaks out the responses is also configurable. You can change the speech rate by editing the `GitHub Copilot Voice` extension settings. The default value is 100% of the normal speech rate. However, this value can be set to any value between 1% and 200%.
 
-- We recommend having a good microphone to get the best experience with the `Hey, GitHub!` extension. In our experience, a good microphone greatly improves the accuracy of the speech recognition and as a result, the accuracy of the entire extension. 
+- We recommend having a good microphone to get the best experience with the `GitHub Copilot Voice` extension. In our experience, a good microphone greatly improves the accuracy of the speech recognition and as a result, the accuracy of the entire extension. 
 
-- There is way to define custom commands for the `Hey, GitHub!` extension. In the extension configuration you can define a custom utterance and map it to a known VS Code command. For example, if you want to define a custom command to toggle the sidebar, you can define the utterance as "toggle sidebar" and map it to the VS Code command "workbench.action.toggleSidebarVisibility".
+- There is way to define custom commands for the `GitHub Copilot Voice` extension. In the extension configuration you can define a custom utterance and map it to a known VS Code command. For example, if you want to define a custom command to toggle the sidebar, you can define the utterance as "toggle sidebar" and map it to the VS Code command "workbench.action.toggleSidebarVisibility".
 
-- If you would like to use your speech-to-text engine to interact with `Hey, GitHub!`, you can direct the output of these systems into the `Hey, GitHub!` Webview's chat input.
+- If you would like to use your speech-to-text engine to interact with `Copilot Voice`, you can direct the output of these systems into the `Copilot Voice` Webview's chat input.
 Remember to turn off the default speech-to-text engine by clicking on the microphone icon on the web view.
 
 <a href="#top">Back to top</a>
 # Known Software Limitations
 
-"Hey, GitHub!" is a proof-of-concept extension that is not intended for production use. Instead, it is an experiment that demonstrates the potential of voice-first UX for developers. While we are working hard to eliminate as many bugs as possible, there are some known limitations that we would like to highlight.
+"Copilot Voice" is a proof-of-concept extension that is not intended for production use. Instead, it is an experiment that demonstrates the potential of voice-first UX for developers. While we are working hard to eliminate as many bugs as possible, there are some known limitations that we would like to highlight.
 
 - The extension is currently only available via a signup process. We are working on making it available to everyone. 
-- The extension competes with the code completions of the IDE and the GitHub Copilot infrastructure. This can lead to some unexpected behavior. Therefore, the users are encouraged to turn off the GitHub Copilot functionality when using the "Hey, GitHub!" extension.
-- The extension only supports one instance of VS Code. The extension may produce undesired results if you have multiple VS Code instances open.
+- The extension competes with the code completions of the IDE and the GitHub Copilot infrastructure. This can lead to some unexpected behavior. Therefore, the users are encouraged to turn off the GitHub Copilot functionality when using the "Copilot Voice" extension.
 - The extension currently works with the default microphone of the system. We are working on adding support for users to select the microphone of their choice attached to the system.
 - The extension has been tested on Windows 10 and macOS. While the software should work as is on a Linux machine, we have not tested that completely.
 
