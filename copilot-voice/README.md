@@ -1,4 +1,4 @@
-# `Copilot voice`
+# `Copilot Voice`
 
 - [Interaction](#interaction)
    - [Modes](#modes)
