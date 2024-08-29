@@ -1,35 +1,4 @@
-# `Copilot Voice`
-
-- [Interaction](#interaction)
-   - [Modes](#modes)
-   - [Command Categories](#command-categories)
-   - [IDE Control](#ide-control)
-   - [Code Generation/Editing](#code-generationediting)
-- [Tips and Tricks](#tips-and-tricks)
-- [Known Software Limitations](#known-software-limitations)
-
-
-Imagine a distant future where keyboards and mice are off-limits to all things code. How would we code then?
-
-Unfortunately, that distant future is *today* for a non-trivial number of our fellow developers. Be it due to an accident, or a condition such as Repetitive Stress Injury.
-
-These developers still code by the ingenious use of assistive technologies like speech recognition. However, upon closer inspection, we found that these technologies leave much to be desired. In particular, when it comes to code dictation, the structurally unforgiving nature of code makes it difficult to express out loud.
-
-Most of us are aware of the internet meme
-```
-Programming is like writing a book ... 
-except if you miss a single comma on page 156 the whole thing makes no damn sense" 
-- unknown
-```
-
-In particular, due to the interleaving of the symbols in code, contemporary code dictation solutions subject us developers to a awkward code/symbol dictation. And imagine if that awkwardness is removed; how productive we all will be as developers. That’s where `Copilot Voice` can help.
-
-With Copilot, Github ushered in a new paradigm of software development. With the power of your voice, we’re excited to bring the same benefits of Copilot to even more developers. GitHub is renewing its vision to be the home for *ALL* developers, and this experiment is just one of many steps we’ll be taking to make that a reality.
-
-<a href="#top">Back to top</a>
-# Interaction
-
-Copilot Voice provides voice-first UX to make copilot accessible to even more developers. 
+albertanastasia:mainto even more developers. 
 
 The voice interaction underneath uses an embedded version of [Microsoft's embedded speech solution](https://azure.microsoft.com/en-us/products/cognitive-services/speech-to-text/#features). In particular, our solution leverages the Java SDK; thus, we need Java runtime as a system prerequisite. If you do not already have a Java runtime or JDK installed (at least Java 11), a place you can get one is [here](https://learn.microsoft.com/en-us/java/openjdk/download).
 
