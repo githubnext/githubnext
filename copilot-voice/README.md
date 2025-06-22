@@ -1,19 +1,19 @@
-# `Copilot Voice`
+# `副驾驶声音`
 
-- [Interaction](#interaction)
-   - [Modes](#modes)
-   - [Command Categories](#command-categories)
-   - [IDE Control](#ide-control)
-   - [Code Generation/Editing](#code-generationediting)
-- [Tips and Tricks](#tips-and-tricks)
-- [Known Software Limitations](#known-software-limitations)
+- [互动](#互动)
+   - [模式](#模式)
+   - [命令类别](#命令类别)
+   - [IDE控件](#ide控制)
+   - [代码生成/编辑](#代码生成编辑)
+- [提示和技巧](#提示和技巧)
+- [已知的软件限制](#已知软件限制)
 
 
-Imagine a distant future where keyboards and mice are off-limits to all things code. How would we code then?
+想象一下，在遥远的未来，键盘和鼠标是所有代码的禁区。那我们该如何编码呢？
 
-Unfortunately, that distant future is *today* for a non-trivial number of our fellow developers. Be it due to an accident, or a condition such as Repetitive Stress Injury.
+不幸的是，那遥远的未来*今天*对于我们众多的开发伙伴来说。无论是由于事故，还是诸如重复性压力损伤的情况。
 
-These developers still code by the ingenious use of assistive technologies like speech recognition. However, upon closer inspection, we found that these technologies leave much to be desired. In particular, when it comes to code dictation, the structurally unforgiving nature of code makes it difficult to express out loud.
+这些开发人员仍然通过巧妙使用语音识别等辅助技术来编码。然而，经过更仔细的检查，我们发现这些技术还有许多不足之处。特别是，当谈到代码听写时，代码在结构上的不可饶恕性使得它很难大声表达出来。
 
 Most of us are aware of the internet meme
 ```
